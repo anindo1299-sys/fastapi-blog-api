@@ -2,7 +2,7 @@ from typing import Annotated
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from . import JWTtoken, models, database
+import JWTtoken, models, database
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 

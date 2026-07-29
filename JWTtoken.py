@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta, timezone
 from jwt.exceptions import InvalidTokenError
-from .schemas import TokenData
+from schemas import TokenData
 import jwt
 
 

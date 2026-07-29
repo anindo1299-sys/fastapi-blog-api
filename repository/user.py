@@ -1,7 +1,7 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
-from ..hashing import hash
-from .. import schemas, models, database
+from hashing import hash
+import schemas, models, database
 
 get_db = database.get_db
 
