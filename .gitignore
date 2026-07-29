@@ -1,0 +1,14 @@
+# Ignore virtual environment
+blog.env/
+venv/
+.venv/
+
+# Ignore database files
+*.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
